@@ -1,7 +1,7 @@
 app:
   name: Tomcat Loadgen
   code: TCLG
-  notify: krishnan.rejith@gmail.com
+  notify: jjpaul@ecloudcontrol.com
 
 build:
   version: 0.3
@@ -11,20 +11,20 @@ build:
   image_template: tomcat9
 
 deploy:
-  context: rejith/DEV
-  replicas: 4
+  context: jojin77/DEV
+  replicas: 1
   port: 8080
   strategy : rolling
   ready_seconds : 45
 
 properties:
-  title: Tomcat Loadgen - Demo over Zoom on Wed
+  title: Tomcat Loadgen - Testing on Thursday
   head_color : RoyalBlue
   threads: 0
   delay: 60
   next: 60
   download: true
   random : true
-  nano : 428
+  nano : 124
 
 
