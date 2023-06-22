@@ -19,7 +19,7 @@ deploy:
 
 properties:
   title: Tomcat Loadgen - Testing on Thursday
-  head_color : RoyalBlue
+  head_color : Viva Magenta
   threads: 0
   delay: 60
   next: 60
