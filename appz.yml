@@ -12,14 +12,14 @@ build:
 
 deploy:
   context: jojin77/DEV
-  replicas: 1
+  replicas: 4
   port: 8080
   strategy : rolling
   ready_seconds : 45
 
 properties:
   title: Demo for Lendo
-  head_color : Viva Magenta
+  head_color : Yellow
   threads: 0
   delay: 60
   next: 60
